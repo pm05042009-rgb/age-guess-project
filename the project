@@ -1,0 +1,10 @@
+print("What is your name?")
+name = input()
+print("What year were you born?")
+year = int(input())
+age = 2026 - year
+print("Hello", name, "you are", age, "years old.")
+if age < 18:
+    print("you are a minor")
+elif age > 18:
+    print("you are an adult")
